@@ -58,7 +58,6 @@ The final selection is random within each eligible cluster. The notebook does no
 
 ![PCA projection of 2,000 products across five K-means clusters; cluster 1 is separated on the first component, while several other groups overlap.](assets/product-clusters.png)
 
-*Re-rendered from the notebook’s embedded Plotly data. All coordinates, product IDs, cluster assignments, and cluster colors are preserved; the layout and title are reformatted for readability. Legend counts are calculated from the saved plot. The original title mentions recently viewed products, but the saved figure contains no separate browsing-history markers.*
 
 | Cluster ID | Products in saved plot | Share of plotted catalog |
 | --- | ---: | ---: |
@@ -94,7 +93,6 @@ The following IDs are copied from the saved recommendation output. Their order i
 
 The demonstration retains both broad interests from the browsing history and excludes previously viewed products. It also exposes the limits of broad semantic grouping: paint suggestions span finishes and interior/exterior uses, without explicit attribute constraints. A production recommender would need to distinguish topical similarity from actual suitability.
 
-**Evaluation status:** no held-out test set, Precision@K, Recall@K, NDCG, silhouette score, latency benchmark, or online experiment is included. No improvement in conversion, revenue, or engagement is claimed.
 
 ## Technology
 
